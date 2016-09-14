@@ -5,10 +5,7 @@ ini_set('display_errors', 1);
 
 // get objects and templates
 require_once "functions/loadobjects.php";
-require_once "templates/winkelwagen_showproduct.php";
-require_once "templates/footer.php";
-require_once "templates/glimlach.php";
-require_once "templates/show_tablet_template.php";
+require_once "functions/loadtemplates.php";
 
 // process shoppingbag
     // add product to shoppingbag
@@ -35,7 +32,7 @@ require_once "templates/show_tablet_template.php";
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Winkelwagen</title>
 <link rel='stylesheet' type='text/css' href='css/layout.css' />
 </head>
 
@@ -111,4 +108,5 @@ require_once "templates/show_tablet_template.php";
 </div>
 
 </body>
+
 </html>
